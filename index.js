@@ -42,9 +42,9 @@ document.addEventListener('DOMContentLoaded',() => {
     div3.appendChild(select3)
 
     //listener for text
-    document.getElementById('input_1').addEventListener('keypress', handleTextChange1)
-    document.getElementById('input_2').addEventListener('keypress', handleTextChange2)
-    document.getElementById('input_3').addEventListener('keypress', handleTextChange3)
+    document.getElementById('input_1').addEventListener('input', handleTextChange1)
+    document.getElementById('input_2').addEventListener('input', handleTextChange2)
+    document.getElementById('input_3').addEventListener('input', handleTextChange3)
 
     //listener for value
     document.getElementById('select_1').addEventListener('change', handleValueChange1)
