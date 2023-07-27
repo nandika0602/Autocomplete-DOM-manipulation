@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded',() => {
     div1.setAttribute('id','div_1')
     let input1 = document.createElement('input')
     input1.setAttribute('id','input_1')
-    input1.placeholder = 'Enter the title of a product'
+    input1.setAttribute('placeholder', 'Enter the title of a product')
     let select1 = document.createElement('select')
     select1.setAttribute('id','select_1')
     div1.appendChild(input1)
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded',() => {
     div2.setAttribute('id','div_2')
     let input2 = document.createElement('input')
     input2.setAttribute('id','input_2')
-    input2.placeholder = 'Enter the brand of a product'
+    input2.setAttribute('placeholder', 'Enter the brand of a product')
     let select2 = document.createElement('select')
     select2.setAttribute('id','select_2')
     mainDiv.appendChild(div2).appendChild(input2)
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded',() => {
     input3.setAttribute('id','input_3')
     let select3 = document.createElement('select')
     select3.setAttribute('id','select_3')
-    input3.placeholder = 'Enter the category of a product'
+    input3.setAttribute('placeholder', 'Enter the category of a product')
     mainDiv.appendChild(div3).appendChild(input3)
     div3.appendChild(select3)
 
